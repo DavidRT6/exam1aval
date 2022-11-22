@@ -11,3 +11,5 @@ j- sed -i 's/Vicente/Pepe/g' Alumnos.txt
 k- grep [2][0][1][0-9] Alumnos.txt
 
 l- cat Alumnos.txt | awk '{print $1,$2}' | grep ^J | uniq
+
+m- du -hs * | sort | awk '{print $2}' | head -n3
