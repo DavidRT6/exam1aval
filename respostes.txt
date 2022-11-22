@@ -1,1 +1,3 @@
 3- cat Alumnos.txt | grep -n SI > si.txt
+
+5- mv si.txt si
