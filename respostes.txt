@@ -4,7 +4,7 @@ e- mv si.txt si
 
 f- cat Alumnos.txt | tail -n+2 | awk '{print $1,$2"-"$5}'
 
-g- grep González Alumnos.txt | wc -l
+g- grep González Alumnos.txt | awk '{print $1,$2}' | uniq | wc -l
 
 j- sed -i 's/Vicente/Pepe/g' Alumnos.txt
 
