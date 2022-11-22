@@ -1,3 +1,5 @@
 d- cat Alumnos.txt | grep -n SI > si.txt
 
 e- mv si.txt si
+
+f- cat Alumnos.txt | tail -n+2 | awk '{print $1,$2"-"$5}'
